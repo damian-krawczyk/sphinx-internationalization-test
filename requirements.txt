@@ -1,0 +1,4 @@
+python-Levenshtein>=0.12.2
+Sphinx>=4.1.2
+sphinx-intl>=2.0.1
+sphinx-design>=0.0.12

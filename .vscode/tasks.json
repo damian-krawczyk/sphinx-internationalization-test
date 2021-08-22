@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start sphinx-autobuild EN",
+            "type": "shell",
+            "options": 
+            {
+                "env": 
+                {
+                    "PROJECT_PORT": "8093"
+                }
+            },
+            "command": "${config:virtualenvPath}/sphinx-autobuild ${workspaceFolder}/docs ${workspaceFolder}/docs/_build/html -a --port $PROJECT_PORT --open-browser"
+        },
+        {
+            "label": "Internationalization - build gettext",
+            "type": "shell",
+            "command": "${config:virtualenvPath}/sphinx-build -b gettext ${workspaceFolder}/docs ${workspaceFolder}/docs/_build/gettext"
+        },
+        {
+            "label": "Internationalization - intl update",
+            "type": "shell",
+            "command": "${config:virtualenvPath}/sphinx-intl update -p ${workspaceFolder}/docs/_build/gettext -l pl -d ${workspaceFolder}/docs/locale"
+        },
+        {
+            "label": "Internationalization - build html",
+            "type": "shell",
+            "command": "${config:virtualenvPath}/sphinx-build -a -b html -D language=pl ${workspaceFolder}/docs ${workspaceFolder}/docs/_build/html_pl"
+        },
+        // https://code.visualstudio.com/docs/editor/tasks#_compound-tasks
+        {
+            "label": "Internationalization - intl update and build html",
+            "dependsOrder": "sequence",
+            "dependsOn": ["Internationalization - intl update", "Internationalization - build html"]
+        }
+    ]
+}

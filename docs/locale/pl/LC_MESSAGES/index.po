@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Damian Krawczyk
+# This file is distributed under the same license as the Sphinx
+# internationalization test package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx internationalization test \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-22 17:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../index.rst:9
+msgid "Contents:"
+msgstr "Zawartość:"
+
+#: ../../index.rst:7 5b7fbedef2f0442d9ff03cdf25ee70db
+msgid "Welcome to Sphinx internationalization test's documentation!"
+msgstr "Witaj w dokumentacji Sphinx internationalization test"
+
+#: ../../index.rst:14 4fd9c9ef669a491f9644e23cba1f7f82
+msgid "sphinx-design"
+msgstr ""
+
+#: ../../index.rst:17 30c1ca446a344a27a972a9c9cc1270cf
+msgid "buttons"
+msgstr ""
+
+#: ../../index.rst:19 645df2e517a14ebe83fd8f2aa81331dd
+msgid "Example button"
+msgstr "Przykładowy przycisk"
+

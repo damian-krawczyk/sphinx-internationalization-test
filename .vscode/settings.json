@@ -1,0 +1,6 @@
+{
+    "virtualenvPath": "/Users/$USER/.virtualenvs/sphinx-internationalization-test/bin",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "restructuredtext.confPath": "${workspaceFolder}/docs"
+}
