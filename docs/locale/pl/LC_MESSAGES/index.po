@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx internationalization test \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-22 17:53+0200\n"
+"POT-Creation-Date: 2021-08-22 18:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,15 @@ msgstr ""
 msgid "buttons"
 msgstr ""
 
-#: ../../index.rst:19 645df2e517a14ebe83fd8f2aa81331dd
+#: ../../index.rst:21 645df2e517a14ebe83fd8f2aa81331dd
 msgid "Example button"
 msgstr "Przykładowy przycisk"
+
+#: ../../index.rst:30 fdf70da6b2434a4db842adebbabf760e
+msgid "badges"
+msgstr ""
+
+#: ../../index.rst:34 3651548d5be74a61ac96278b1ec9998d
+msgid ":bdg-link-primary-line:`Example badge <https://example.com>`"
+msgstr ":bdg-link-primary-line:`Przykładowa odznaka <https://example.com>`"
 

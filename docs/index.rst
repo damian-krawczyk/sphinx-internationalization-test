@@ -25,3 +25,12 @@ buttons
     Example button
 
 ----
+
+badges
+^^^^^^
+
+----
+
+:bdg-link-primary-line:`Example badge <https://example.com>`
+
+----
