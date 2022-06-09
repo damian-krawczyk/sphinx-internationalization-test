@@ -60,6 +60,16 @@ gettext_uuid = True
     - https://sphinx-internationalization-test.readthedocs.io/pl/latest/
 
 
+    > **HINT**: If you notice below error during build in RTD
+    > ```
+    > Theme error:
+    > An error happened in rendering the page index.
+    > Reason: TemplateNotFound('base.html')
+    > ```
+    > 1. Go to your project Admin settings in RTD
+    > 2. Advanced Settings
+    > 3. Uncheck option on the bottom -  Enable EPUB build
+
 ## More resources
 
 - https://www.sphinx-doc.org/en/master/usage/advanced/intl.html
