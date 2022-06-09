@@ -2,3 +2,4 @@ python-Levenshtein>=0.12.2
 Sphinx>=4.5.0
 sphinx-intl>=2.0.1
 sphinx-design>=0.1.0
+furo>=2022.6.4.1
