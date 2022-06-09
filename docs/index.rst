@@ -10,6 +10,9 @@ Welcome to Sphinx internationalization test's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   second-page
+   third-page
+
 sphinx-design
 -------------
 
